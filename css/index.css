@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.logo {
+    width: 20%;
+}
+.top-links {
+    width: 80%;
+    margin-top: 2.8%;
+    
+}
+
+.top-links a{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.top-image {
+    margin-top: 4.5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
