@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -69,6 +70,37 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    
+}
+
+.logo {
+    width: 20%;
+}
+.top-links {
+    width: 80%;
+    margin-top: 2.8%;
+    
+}
+
+.top-links a{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.top-image {
+    margin-top: 4.5%;
+    margin-bottom: 2.25%;
 }
 
 .top-content {
@@ -104,12 +136,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.b1 {
+    background-color: #008081;
+}
+
+.b2 {
+    background-color: #fed700;
+}
+
+.b3 {
+    background-color: #5e9ea0;
+}
+
+.b4 {
+    background-color: #ff7f50;
+}
+
+.b5 {
+    background-color: #dc143b;
+}
+
+.b6 {
+    background-color: #228b22;
+}
+
+.b7 {
+    background-color: #9931cc;
+}
+
+.b8 {
+    background-color: #ff69b3;
+}
+
+.b9 {
+    background-color: #4b0081;
+}
+
+.b10 {
+    background-color: #1e90ff;
 }
 
 .bottom-content {
@@ -143,4 +214,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+section {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.bottom-border {
+    border-bottom: 1px dashed black;
+    width: 59%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 2% auto;
+}
+
+.section-border {
+    border-bottom: 1px dashed black;
+    margin-bottom: 16.5%;
+ 
+}
+
+.num2 {
+    width: 94%;
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.num2-flex {
+    width: 48%;
+    
+     
+}
+
+h4 {
+    margin-top: 2.5%;
+}
+
+button {
+    display: block;
+    margin: 5% 0;
+   
+    background-color: white;
+    border: 2.5px black solid;
+    border-radius: 10px;
+    padding: 2% 4%;
+}
+
+button a {
+    color: black;
+    text-decoration: none;
+}
+
+section h4 {
+    margin-top: 0;
+}
+
+.last-p {
+    margin-bottom: 5.5%;
 }
